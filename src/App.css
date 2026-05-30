@@ -1,0 +1,26 @@
+.luff{
+    color: red;
+    text-shadow:  2px 3px 4px #000000;
+}
+
+
+.prowrap{
+    display:flex;
+    gap:20px; 
+    flex-wrap:wrap;
+}
+
+.cardpro{
+    /* display:flex; */
+    /* gap:10px; */
+    border:1px solid black;
+    width: 80%; 
+    margin:20px;
+    padding:20px;
+}
+.cardpro h1{
+    font-size: 20px;
+    width: 310%;   
+    width :calc(33.33% -14px);
+}
+
