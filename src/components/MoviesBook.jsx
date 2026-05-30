@@ -16,8 +16,8 @@ import react from "react";
 export default function MoviesBook({name,rating , handledata}){
     const handleclick=()=>{
         handledata("Monkey D Luffy ");
-    }
-    
+    };
+
     
     
     return (
@@ -27,9 +27,9 @@ export default function MoviesBook({name,rating , handledata}){
              <button onClick={handleclick}>Send Data</button>
           */}
          <input placeholder="Enter"/>
-         <br>
+         
          <button onClick={handleclick}>Book Now</button>
-         </br>
+         <br />
          <p>thanks for your Booking</p>
         </div>
     )
