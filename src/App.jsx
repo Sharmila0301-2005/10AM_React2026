@@ -53,7 +53,7 @@ const handlemultiple =useCallback((no1,no2)=>{
       {/* <ApiCallTwo /> */}
       {/* <ExampleOne /> */}
       <MoviesBook  name="Karuppu" rating="8" handledata={handledata} />
-      <MoviesBook  name="Sillunuu Oru Kadhal" rating="7" handledata={handledata} /> 
+      {/* <MoviesBook  name="Sillunuu Oru Kadhal" rating="7" handledata={handledata} />  */}
     </div>
   );
 }

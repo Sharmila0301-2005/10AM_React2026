@@ -27,6 +27,6 @@ export default function MoviesBook({name,rating , handledata}){
              <button onClick={handleclick}>Send Data</button>
           */}
          <input placeholder="Enter"/>
-         </div>
+        </div>
     )
 }
